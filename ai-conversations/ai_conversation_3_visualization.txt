@@ -1,0 +1,58 @@
+AI CONVERSATION 3: Data Visualization Design and Implementation
+Date: 2024-01-17
+Tool: ChatGPT
+Purpose: Create professional weather visualizations
+
+ME:
+I need to create temperature and precipitation visualizations that are clear and professional. What are the best practices?
+
+AI:
+For weather visualizations, consider these best practices:
+
+Temperature Visualization:
+
+Use a gauge chart for current temperature
+
+Show trend line for forecast temperatures
+
+Use color coding (blue for cold, red for hot)
+
+Include reference lines for temperature ranges
+
+Precipitation Visualization:
+
+Show current conditions as bar charts
+
+Display precipitation probability as colored bars
+
+Use gradient colors (green-yellow-red) for probability
+
+Include value labels on all bars
+
+General Principles:
+
+Use consistent color schemes
+
+Add clear titles and labels
+
+Include grid lines for readability
+
+Ensure proper aspect ratios
+
+ME:
+How should I structure the create_temperature_visualisation() and create_precipitation_visualisation() functions?
+
+AI:
+Both functions should:
+
+Accept weather_data dict and output_type parameter
+
+Return figure if output_type='figure', else display
+
+Use subplots for multiple related visualizations
+
+Include proper error handling
+
+Follow matplotlib best practices
+
+Structure them as:
